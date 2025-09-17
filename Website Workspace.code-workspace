@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "aurora-free-portfolio-html-website-template",
+			"path": ".."
+		},
+		{
+			"name": "Website",
+			"path": "../../../Documents/Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aurora-free-portfolio-html-website-template"
+	}
+}
