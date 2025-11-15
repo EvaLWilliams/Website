@@ -1667,3 +1667,41 @@ button.filter-button:hover {
   padding: 0.56rem 1.19rem;
   border-radius: 30px;
 }
+.testimonial-carousel-prev,
+.volunteer-carousel-prev {
+	left: -80px !important;
+}
+
+.testimonial-carousel-next,
+.volunteer-carousel-next {
+	right: -80px !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+	width: 60px;
+	height: 60px;
+	background-color: #a89580;
+	border-radius: 50%;
+	color: white;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	font-size: 24px;
+	font-weight: bold;
+}
+.testimonials-inner .card-img-top {
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+.card .card-img-top {
+	height: 200px;
+	object-fit: cover;
+}
+.portfolio-image {
+	width: 250%;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 10px;
+}

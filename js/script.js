@@ -82,11 +82,39 @@
 		var testimonial_swiper = new Swiper(".testimonial-carousel", {
 			slidesPerView: 3,
 			spaceBetween: 30,
-			loop: true,
+			loop: false,
 			pagination: {
-				el: ".swiper-pagination",
+				el: ".testimonial-pagination",
 				clickable: true,
 			},
+			navigation: {
+				nextEl: ".testimonial-carousel-next",
+				prevEl: ".testimonial-carousel-prev",
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				980: {
+					slidesPerView: 3,
+					spaceBetween: 5,
+				},
+			},
+		});
+
+		var volunteer_swiper = new Swiper(".volunteer-carousel", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			loop: false,
+			pagination: {
+				el: ".volunteer-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".volunteer-carousel-next",
+				prevEl: ".volunteer-carousel-prev",
+			},		
 			breakpoints: {
 				0: {
 					slidesPerView: 1,
