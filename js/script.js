@@ -58,7 +58,7 @@
 		var swiper = new Swiper(".portfolio-carousel", {
 			slidesPerView: 3,
 			spaceBetween: 30,
-			loop: true,
+			loop: false,
 			navigation: {
 				nextEl: ".portfolio-carousel-next",
 				prevEl: ".portfolio-carousel-prev",
