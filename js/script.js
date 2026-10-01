@@ -127,6 +127,35 @@
 			},
 		});
 
+		var experience_swiper = new Swiper(".experience-carousel", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			loop: false,
+			grabCursor: true,
+			pagination: {
+				el: ".experience-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".experience-carousel-next",
+				prevEl: ".experience-carousel-prev",
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+				980: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+			},
+		});
+
 		var clients_swiper = new Swiper(".clients-carousel", {
 			slidesPerView: 5,
 			spaceBetween: 30,

@@ -1668,12 +1668,14 @@ button.filter-button:hover {
   border-radius: 30px;
 }
 .testimonial-carousel-prev,
-.volunteer-carousel-prev {
+.volunteer-carousel-prev,
+.experience-carousel-prev {
 	left: -80px !important;
 }
 
 .testimonial-carousel-next,
-.volunteer-carousel-next {
+.volunteer-carousel-next,
+.experience-carousel-next {
 	right: -80px !important;
 }
 .swiper-button-prev,
@@ -1705,3 +1707,6 @@ button.filter-button:hover {
 	object-fit: cover;
 	border-radius: 10px;
 }
+
+.experience-carousel .swiper-slide { height: auto; }
+.experience-carousel .experience-inner { height: 100%; }
